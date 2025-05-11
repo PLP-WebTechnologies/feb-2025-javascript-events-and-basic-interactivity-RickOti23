@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tab {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.tab-content.show {
+    display: block;
+}
+
+input {
+    margin: 10px;
+    padding: 8px;
+}
+
+#passwordFeedback {
+    font-size: 12px;
+    color: red;
+}
